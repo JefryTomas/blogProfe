@@ -1,0 +1,112 @@
+/* Estilo para el h1 */
+h1 {
+    font-size: 20px; 
+    font-family: sans-serif; 
+    font-weight: bold; 
+    border-style: solid; 
+    /* border-color: red; 
+       border-radius: 5px; */
+    color: red;
+    text-align: center;
+    margin: 0 auto; /* Alinea al centro */
+}
+
+/* Estilo para el h2 */
+h2 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/* Estilizar múltiples elementos a la vez */
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+/* Estilo para el cuerpo del documento */
+body {
+    text-align: center;
+    background: lightgray; /* Color de fondo */
+    width: 940px;
+    border: 1px solid black;
+    margin: 15px auto;
+    /* padding: 10px; */
+}
+
+/* Estilo para el header */
+header {
+    background: #FFFBB9;
+    border: 1px solid #999999;
+    padding: 5px; /* Espacio hacia adentro */
+}
+
+/* Estilo para el h1 dentro del header */
+header h1 {
+    text-align: center;
+    background: #bdc3c7;
+    padding: 5px 15px; /* Espacio arriba y abajo */
+    text-align: left; /* Alinear a la izquierda */
+}
+
+/* Estilo para el menú */
+.menu li {
+    list-style: none; /* Quitar los puntos de la lista */
+    padding: 5px; /* Espacio de 5px */
+    font: bold 12px verdana;
+    border: 1px solid black; /* Bordes */
+    display: inline-block; /* Ubicar en línea */
+}
+
+/* Estilo para la sección */
+section {
+    width: 600px; /* Ancho del área */
+    margin: 20px;
+    /* border:1px solid black; */
+    float: left; /* Para alinear con otros elementos */
+}
+
+/* Estilo para los artículos */
+article {
+    background: #fffbcc; /* Fondo */
+    border: 1px solid #999;
+    margin-bottom: 15px; /* Separar los artículos */
+    color: #999;
+}
+
+/* Estilo para los pies de página en los artículos */
+article footer {
+    text-align: right;
+}
+
+/* Estilo para la columna */
+.columna {
+    width: 300px; /* Ancho del aside */
+    /* border: 1px solid black; */
+    float: left; /* Alinear el aside con la sección */
+    margin: 20px;
+}
+
+/* Estilo para los mensajes en blockquote */
+.columna blockquote {
+    /* border: 1px solid black; */
+    /* border: 1px dashed black; /* Bordes punteados */
+    border: 0;
+    padding: 40px;
+    background: #FFFBB9;
+}
+
+/* Estilo para el pie de página */
+footer {
+    clear: both; /* Volver a la posición normal */
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+}
+
+/* Estilizar el logotipo */
+img {
+    width: 200px; /* Estilizar el ancho de la imagen */
+    display: block; /* Centrar la imagen */
+    margin: auto; /* Ubica el logo en el centro */
+    height: 140px;
+}
